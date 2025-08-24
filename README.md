@@ -1,4 +1,4 @@
-Custom PCBA design
+# Custom PCBA design
 
 I have designed and fabricated a custom board with ESP32-C3 with the following key hardware features:
 
@@ -12,11 +12,11 @@ I have designed and fabricated a custom board with ESP32-C3 with the following k
 Project Layout build from KiCad 6:
 Refer to folder "KiCad Project Schematics and Gerbers"
 
-Layout snapshot
+## Layout snapshot
 
 <img width="668" height="563" alt="image" src="https://github.com/user-attachments/assets/4ea44bd7-cf59-4813-adb9-faa273aa7002" />
 
-Actual 
+## Actual 
 
 <img width="627" height="510" alt="image" src="https://github.com/user-attachments/assets/fe470d92-b999-4f19-9379-06d3e6f514a4" />
 
@@ -29,7 +29,7 @@ MP6050_trial_V2 - Grab data from gyroscope/accelrometer
 SimpleWiFiServer - Becomes a web server to trigger a GPIO action (e.g. LED)
 Wifi_scan_example - Scan the wifi network and check for RSSI signal strength 
 
-Example GIFs:
+## Example GIFs
 
 ![InShot_20230917_184955720](https://github.com/user-attachments/assets/2dfa7e15-1841-4f13-a897-50a13fdb003a)
 
