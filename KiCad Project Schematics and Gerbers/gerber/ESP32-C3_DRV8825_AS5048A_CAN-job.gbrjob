@@ -1,0 +1,177 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.2,
+"PadToPad": 0.13,
+"PadToTrack": 0.13,
+"RegionToRegion": 0.13,
+"TrackToRegion": 0.13,
+"TrackToTrack": 0.13
+},
+{
+"Layers": "Inner",
+"MinLineWidth": 0.25,
+"PadToPad": 0.13,
+"PadToTrack": 0.13,
+"RegionToRegion": 0.13,
+"TrackToRegion": 0.13,
+"TrackToTrack": 0.13
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Bot",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "ESP32-C3_DRV8825_AS5048A_CAN-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6062,
+"Finish": "None",
+"ImpedanceControlled": true,
+"LayerNumber": 4,
+"ProjectId": {
+"GUID": "45535033-325f-4433-935f-6d6f746f725f",
+"Name": "ESP32_C3_motor_driver_V4",
+"Revision": "rev?"
+},
+"Size": {
+"X": 58.1,
+"Y": 48.6
+}
+},
+"Header": {
+"CreationDate": "2023-08-26T21:57:55+08:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.7)"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.5",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "F.Cu/In1.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)",
+"Thickness": 0.2104,
+"Type": "Dielectric"
+},
+{
+"Name": "In1.Cu",
+"Thickness": 0.0152,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.5",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "In1.Cu/In2.Cu",
+"Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)",
+"Thickness": 1.065,
+"Type": "Dielectric"
+},
+{
+"Name": "In2.Cu",
+"Thickness": 0.0152,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.5",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "In2.Cu/B.Cu",
+"Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)",
+"Thickness": 0.2104,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}
