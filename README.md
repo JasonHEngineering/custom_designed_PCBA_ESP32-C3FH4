@@ -2,20 +2,22 @@ Custom PCBA design
 
 I have designed and fabricated a custom board with ESP32-C3 with the following key hardware features:
 
-    Using ESP32-C3FH4 (embedded flash memory)
-    Power management from USB as well as from (maximum) 12 V source (LDO: AMS1117-3.3 and L78L05ABUTR)
-    Stepper motor driver (DRV8825)
-    Accelerometer + Gyro unit (MPU6050)
-    Built-in 2.4 GHz inverted F antenna (reference)
-    CAN transceiver (TJA1051T/CM,118)
+- Using ESP32-C3FH4 (embedded flash memory)
+- Power management from USB as well as from (maximum) 12 V source (LDO: AMS1117-3.3 and L78L05ABUTR)
+- Stepper motor driver (DRV8825)
+- Accelerometer + Gyro unit (MPU6050)
+- Built-in 2.4 GHz inverted F antenna (reference)
+- CAN transceiver (TJA1051T/CM,118)
 
 Project Layout build from KiCad 6:
 Refer to folder "KiCad Project Schematics and Gerbers"
 
 Layout snapshot
+
 <img width="668" height="563" alt="image" src="https://github.com/user-attachments/assets/4ea44bd7-cf59-4813-adb9-faa273aa7002" />
 
 Actual 
+
 <img width="627" height="510" alt="image" src="https://github.com/user-attachments/assets/fe470d92-b999-4f19-9379-06d3e6f514a4" />
 
 Scope of sample codes under folder names:
